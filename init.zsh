@@ -14,10 +14,7 @@ local gmodule_home=${0:A:h}
 #
 
 local gprefix
-zstyle -s ':zim:git' aliases-prefix 'gprefix' || gprefix=G
-
-# Git
-alias ${gprefix}='git'
+zstyle -s ':zim:git' aliases-prefix 'gprefix' || gprefix=g
 
 # Branch (b)
 alias ${gprefix}b='git branch'
