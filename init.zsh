@@ -88,10 +88,6 @@ alias ${gprefix}gL='git grep --files-without-match'
 alias ${gprefix}gv='git grep --invert-match'
 alias ${gprefix}gw='git grep --word-regexp'
 
-# Help (h)
-alias ${gprefix}h='git help'
-alias ${gprefix}hw='git help --web'
-
 # Index (i)
 alias ${gprefix}ia='git add'
 alias ${gprefix}iA='git add --patch'
